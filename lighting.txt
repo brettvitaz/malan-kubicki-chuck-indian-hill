@@ -1,0 +1,112 @@
+kit
+-1st
+---kit - 1:6:2-1
+---break - 1:6:2-3
+--
+---gath - 1:6:2-8
+---liv - 1:6:2-5
+---din - 1:6:2-4
+--
+---dome - 1:6:2-12
+---main - 1:6:2-6
+***
+r/l - 1:6:2
+
+-ll
+--on - 1:6:9-1
+--off - 1:6:9-3
+
+-out
+--frt
+---land - 1:8:8-1
+---spot - -8
+---court - -9
+---garg - -6
+--rear
+---land - -2
+---spot - -4
+---patio - -5
+---pole - 1:6:9-12
+
+-shds
+--drps
+---brek - 1:6:8-3
+---gath - -2
+---stair - -4
+---liv - -1
+--shade
+---kit - -7
+---str - -5
+---dr - -6
+--all
+---op - 1:6:9=-13
+---cl - -14
+
+-firee
+--gTH - 1:6:8-8
+--lr - -9
+--all off - 1:6:9-11
+
+-glob 
+--home
+---home - 1:6:2-1
+---away - 1:5:12-6
+---entertain - 1:6:2-13
+---show - 1:6:2-14
+--vac
+---on - 1:8:8-13
+---off - 15
+***
+r/l - 1:6:2
+
+-waterfall
+--lts - 1:8:8 - 14
+--pmp
+---both - 11
+---single - 12
+---emer - 1:6:4-1
+
+-oot - 1:6:2-15
+
+his bath
+--outdoors
+--global
+--waterfall
+
+living room - OK
+-rm on - 1:8:7-1
+
+mbr - OK
+-room on - 1:8:6-1
+
+theater - ok
+-room on - 1:8:4-7
+
+basement
+-lower level 
+--main scenes
+---main scene - 1:8:5-5
+---nite - 7
+---theater - 6
+---wine  - 3
+--bar
+---on - 1
+---chand - 9
+--gallery
+---on - 2
+---chand - 10
+***
+r/l - 1:8:5
+
+-outdoors
+-shades/drapes
+--drapes
+---sitting - 1:6:8-12
+---saloon - 13
+---theater - 14
+--shades
+---theater - 15
+---stairs - 5
+
+
+
