@@ -1,0 +1,104 @@
+//Crestron Toolbox Template Script File.
+
+[Header]
+	// Global settings go here.
+	// Add key to individual sections to override, otherwise these values will be used.
+DebugStrings=on
+AbortOnError=on
+ConcurrentSectionLimit=100
+//GlobalReportFile=|$scriptpath||$scriptfilename|-Report Log |$date| |$time|.log
+//GlobalReportFileIncludeAll=off
+
+[Variables]
+//Predefined: $time $date $scriptfilename $scriptpath $scriptsection
+//SampleVar=This is a sample variable
+PRO2_File="C:\Crestron\Projects\Kubicki\Program\Kubicki (Indian Hill) 2007-10-18 Rev1.spz"
+TPS4000-A_File="C:\Crestron\Projects\Kubicki\TPs\TPS4000 Kubicki (Indian Hill) Aficionado 2007-10-18 Rev1.vtz"
+TPS4000-E_File="C:\Crestron\Projects\Kubicki\TPs\TPS4000 Kubicki (Indian Hill) Elegance7 2007-10-18 Rev1.vtz"
+STX1700_File="C:\Crestron\Projects\Kubicki\TPs\STX1700CXP Kubicki (Indian Hill) Elegance7 2007-10-18 Rev1.vtz"
+TPS15_File="C:\Crestron\Projects\Kubicki\TPs\TPS15 Kubicki (Indian Hill) Elegance7 2007-10-18 Rev1.vtz"
+
+[Load TPS15 - Kitchen]
+Connect=tcp 192.168.1.89
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS15_File|,DisplayListAll,false
+
+[Load TPS4000 - 06]
+Connect=tcp 192.168.1.99:cresnet 06
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS4000-A_File|,DisplayListAll,false
+
+[Load TPS4000 - 07]
+Connect=tcp 192.168.1.99:cresnet 07
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS4000-E_File|,DisplayListAll,false
+
+[Load TPS4000 - 08]
+Connect=tcp 192.168.1.99:cresnet 08
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS4000-E_File|,DisplayListAll,false
+
+[Load TPS4000 - 09]
+Connect=tcp 192.168.1.99:cresnet 09
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS4000-E_File|,DisplayListAll,false
+
+[Load TPS4000 - 0A]
+Connect=tcp 192.168.1.99:cresnet 0A
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |TPS4000-A_File|,DisplayListAll,false
+
+[Load STX1700 - 03]
+Connect=tcp 192.168.1.99:cresnet 03
+//LogFile=
+//DataLogFile=
+// Additional parameters available for DisplayListSend.  See Reference for details.
+DisplayListSend |STX1700_File|,DisplayListAll,false
+
+[Load Main Entertain Processor]
+Connect=tcp 192.168.1.99
+
+//LogFile=
+//DataLogFile=
+// Additional parameters available for ProgramSend.  See Reference for details.
+ProgramSend |PRO2_File|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

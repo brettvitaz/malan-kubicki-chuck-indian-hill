@@ -1,0 +1,54 @@
+kubicki to do
+
+
+
+media room
+x -all equip control
+-all equip set up
+-TP
+
+lighting
+x -set up multi-area control
+-get addresses
+-communications
+
+cameras - honeywell hrxd16 800-796-2288 2
+---off to go back to audio page
+-basement
+-door station
+-side drive
+-circle drive
+-entry interior
+-kitchen
+-courtyard
+-front yard
+-back yard1
+ 
+
+x audio video merge
+
+sat resets
+
+slingbox
+-set up xpanel
+
+x email reports
+
+exercise rmclvs
+
+entertainment modes
+-1 kitchen/breakfast
+-2 1st floor
+-3 Entertain
+--include ll
+-4 Entertain
+--+all outdoor
+--courtyard
+--patio
+
+hvac
+-get areas
+-set up program
+
+DYNAMIC ALLOCATION new changes
+call sources and fb use analog
