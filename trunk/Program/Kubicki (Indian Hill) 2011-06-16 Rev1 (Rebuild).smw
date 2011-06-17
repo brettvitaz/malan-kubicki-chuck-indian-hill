@@ -17,7 +17,7 @@ CnH=2
 S0Nd=1
 S1Nd=2
 SLNd=3
-PrNm=Kubicki (Indian Hill) 2011-06-12 Rev1 (Rebuild).smw
+PrNm=Kubicki (Indian Hill) 2011-06-16 Rev1 (Rebuild).smw
 DbVr=26.00.008.00
 DvcDbVr=34.00.012.00
 PgmNm=Brett Vitaz
@@ -10475,7 +10475,7 @@ Tpe=ST-1500
 ObjTp=Db
 H=101
 DvH=1685
-Whc=4
+Whc=2
 Mnf=Anthem
 Mdl=BLX 200
 DrF=blx200-crestron.ir
@@ -11056,7 +11056,7 @@ Xm=-1
 Ym=-1
 SH=1653
 Z=100
-P=895
+P=888
 Ht=1
 Hi=1
 ]
@@ -307110,13 +307110,13 @@ Nm=area18_rcvr_Tuner_Seek_Down
 ObjTp=Sg
 H=16315
 Nm=area18_rcvr_Direct_Tune_AM
-SgTp=2
+SgTp=31
 ]
 [
 ObjTp=Sg
 H=16316
 Nm=area18_rcvr_Direct_Tune_FM
-SgTp=2
+SgTp=31
 ]
 [
 ObjTp=Sg
@@ -307143,13 +307143,13 @@ Nm=area18_rcvr_Power_Off_Fb
 ObjTp=Sg
 H=16321
 Nm=area18_rcvr_Volume_Bar
-SgTp=2
+SgTp=6
 ]
 [
 ObjTp=Sg
 H=16322
 Nm=area18_rcvr_Volume$
-SgTp=4
+SgTp=6
 ]
 [
 ObjTp=Sg
@@ -307425,7 +307425,7 @@ Nm=area18_rcvr_Z3_Input_Main_Fb
 ObjTp=Sg
 H=16377
 Nm=area18_rcvr_Tuner_Station$
-SgTp=4
+SgTp=6
 ]
 [
 ObjTp=Sg
