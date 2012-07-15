@@ -1,0 +1,32 @@
+kubicki pro2
+
+slot 2 com card
+A - lutron
+B - (blank)
+
+Built In
+A - JBL SDP3
+B - Faroudja
+C - Imerge
+D - Tuner
+E - HVAC
+F - Camera Switcher
+
+Slot3 IR
+A - DSS Music
+B - TIVO
+C - MIKITA Drapes
+D - 
+E - DVD Server
+F - Camera Server
+
+IR
+A - LG LSS3200A
+A - Theater Satellite Samsung SIR-TS360
+B - Runco Proj
+C - JVC VCR
+D - Kenwood DV5900
+E - Pioneer laser disc
+F - sony TV
+G - Den RCA Satellite
+H - Theater Lutron Grafik Eye
